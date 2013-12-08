@@ -10,10 +10,10 @@ How to use
 Follow the instructions in Andy's blogpost to setup fnotify.
 
 1. Clone `git clone git@github.com:k0nserv/Growl-Irssi.git`
-2. Put the script somewhere `cp growl_irssi/growl_irssi.sh ~/.growl_irssi.sh`
+2. Put the script somewhere `cp Growl-Irssi/growl_irssi.sh ~/.growl_irssi.sh`
 3. Open `se.hugotunius.growirssi.plist` in your favourite editor and customize `ProgramArguments` and `UserName` section for your configuration.
 4. Put the `plist` in `~/Library/LaunchAgents`
-5. Run `launchctl load ~/Library/se.hugotunius.growlirssi.plist`
+5. Run `launchctl load ~/Library/LaunchAgents/se.hugotunius.growlirssi.plist`
 6. Finally run `launchctl start growlirssi`
 7. Enjoy your notifications
 
