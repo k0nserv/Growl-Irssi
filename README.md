@@ -17,6 +17,9 @@ Follow the instructions in Andy's blogpost to setup fnotify.
 6. Finally run `launchctl start growlirssi`
 7. Enjoy your notifications
 
+**Recommended**
+Set `ServerAliveInterval` to 15 in your `~/.ssh/config`. This causes the SSH connection to die if it fails to contact the server three times in a row.
+
 License
 --------
 MIT
