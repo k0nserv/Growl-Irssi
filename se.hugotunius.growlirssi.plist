@@ -16,5 +16,7 @@
     </array>
     <key>UserName</key>
     <string>myusername</string>
+    <key>NumberOfProcesses</key>
+    <integer>1</integer>
   </dict>
 </plist>
