@@ -18,5 +18,7 @@
     <string>myusername</string>
     <key>NumberOfProcesses</key>
     <integer>1</integer>
+    <key>NetworkState</key>
+    <true/>
   </dict>
 </plist>
