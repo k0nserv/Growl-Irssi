@@ -3,15 +3,18 @@
 <plist version="1.0">
   <dict>
     <key>Label</key>
-    <string>se.hugotunius.growlirssi</string>
-    <key>Program</key>
-    <!-- Set ServerAliveInterval(in ~/.ssh/config) to a reasonable number of seconds to cause
-    the connection to die if the networks stops responding.
-    -->
-    <string>#{Path to your irssi growl script}</string>
+    <string>growlirssi</string>
     <key>RunAtLoad</key>
     <true/>
-  	<key>KeepAlive</ke>
-  	<ture/>
+    <key>KeepAlive</key>
+    <true/>
+    <key>ProgramArguments</key>
+    <array>
+      <string>/bin/sh</string>
+      <string>myscript.sh</string>
+      <string>name@server</string>
+    </array>
+    <key>UserName</key>
+    <string>myusername</string>
   </dict>
 </plist>
